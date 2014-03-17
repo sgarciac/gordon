@@ -1,0 +1,8 @@
+use:
+
+./test.sh [test-file.lisp]
+
+or
+
+./test-all.sh
+

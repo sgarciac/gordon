@@ -1,0 +1,13 @@
+Mon Apr  17 19:16 CEST 2006
+	* New CLOS API (contribution by Elliott Johnson)
+	* Movie does not keep the tags.
+
+Sun Mar  26 20:35:00 CEST 2006
+	* gordon-0.2 release
+	* Fixed closed-p bug (found by Elliott Johnson)
+	* Changed movie's tag list to a list of "movie objects", a movie
+	object being a TAG or a stream open on a file. This is useful to
+	directly inject already marshalled data (like font tags)
+Tue Feb  7 19:49:35 CEST 2006
+        * gordon-0.1 release
+	
