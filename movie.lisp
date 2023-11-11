@@ -27,7 +27,7 @@
 
 (genclass movie ()
 	  ((frames-counter 0 integer)
-	   (stream 0 stream)
+	   (stream nil (or null stream))
 	   ))
 
 (defgeneric add-to-movie (movie object)
